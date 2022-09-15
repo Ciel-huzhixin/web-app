@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <ul>
-      <li v-for="user in users" :key="user.username">{{ user.username }} 今年已经 {{ user.age }} 岁</li>
+      <li v-for="user in users" :key="user.username">{{ user.username }} 今年 {{ user.age }} 岁</li>
     </ul>
   </div>
 </template>
